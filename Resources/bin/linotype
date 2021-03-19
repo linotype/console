@@ -2,7 +2,7 @@
 <?php
 
 use Symfony\Component\Console\Application;
-use Linotype\Command\LinotypeCommand;
+use Linotype\Console\Command\LinotypeCommand;
 
 function includeIfExists(string $file): bool
 {
