@@ -28,7 +28,7 @@ class LinotypeCommand extends Command
     protected function configure()
     {
         $this
-            ->setDescription('Lint a file and outputs encountered errors')
+            ->setDescription('Create, export and import linotype components')
             ;
     }
 
@@ -36,7 +36,7 @@ class LinotypeCommand extends Command
     {
         $io = new SymfonyStyle($input, $output);
         
-        $io->success('All %d YAML files contain valid syntax.');
+        $io->success('The "Title" block from "ynk/linotype-lib" imported with success');
         
         return 1;
     }
