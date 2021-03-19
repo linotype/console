@@ -20,7 +20,7 @@
         "symfony/console": "For validating YAML files using the lint command"
     },
     "autoload": {
-        "psr-4": { "Linotype\\Console\\Command\\": "" },
+        "psr-4": { "Linotype\\Console\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
         ]
